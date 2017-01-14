@@ -1,3 +1,11 @@
 #main-img {
   border-radius: 50%;
 }
+
+#complete-name {
+  font-family: 'Philosopher', sans-serif;
+}
+
+#quick-description {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
