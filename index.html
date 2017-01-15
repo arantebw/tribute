@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,13 @@
 
 </head>
 <body>
+  <!-- TODO:
+  1. Dismissable caveat alert.
+  2. Add 6 more year's section in Timeline with atleast 1 content.
+  3. Add new Resources section for tools used to create this site.
+  -->
 
+  <!-- Main header -->
   <div class="jumbotron" id="main-intro">
 
     <div class="container-fluid text-center">
@@ -29,6 +35,12 @@
     </div>
   </div>
 
+  <!-- Caveat -->
+  <div class="container-fluid text-center">
+    <div class="alert alert-info" role="alert">Caveat: This site is a <a href="#">work-in-progress</a>.</div>
+  </div>
+
+  <!-- Timeline -->
   <div class="container-fluid">
     <div class="panel panel-primary">
       <div class="panel-heading">
@@ -50,7 +62,17 @@
           </div>
           <div class="panel-body">
             <ul class="list-group">
-              <li class="list-group-item">He joined Bell Labs corporation that was "jointly owned by American Telephone and Telegraph Company and its subsidiary Western Electric".</li>
+              <li class="list-group-item">He joined Bell Labs corporation that was "jointly owned by American Telephone and Telegraph Company and its subsidiary Western Electric", following the footsteps of his father.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">1968</h3>
+          </div>
+          <div class="panel-body">
+            <ul class="list-group">
+              <li class="list-group-item">The subject of his doctoral thesis was "Subrecursive Hierarchies of Functions".</li>
             </ul>
           </div>
         </div>
@@ -58,7 +80,11 @@
           <div class="panel-heading">
             <h3 class="panel-title">1984</h3>
           </div>
-          <div class="panel-body"></div>
+          <div class="panel-body">
+            <ul class="list-group">
+              <li class="list-group-item">He was now identified as working for AT&T Bell Laboratories.</li>
+            </ul>
+          </div>
         </div>
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -89,9 +115,10 @@
       <div class="panel-heading">
         <h4 class="panel-title">References</h4></div>
       <div class="panel-body">
-        <ul>
-          <li><a href="https://www.bell-labs.com/usr/dmr/www/" target="_blank">Bell Labs</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Dennis_Ritchie" target="_blank">Wikipedia</a></li>
+        <ul class="list-group">
+          <li class="list-group-item"><a href="https://www.bell-labs.com/usr/dmr/www/" target="_blank">Dennis Ritchie Home Page</a></li>
+          <li class="list-group-item"><a href="https://en.wikipedia.org/wiki/Dennis_Ritchie" target="_blank">Wikipedia</a></li>
+          <li class="list-group-item"><a href="https://www.bell-labs.com/usr/dmr/www/bigbio1st.html" target="_blank">Dennis Ritchie Bio</a></li>
         </ul>
       </div>
     </div>
@@ -99,8 +126,8 @@
 
   <div class="container-fluid text-center">
     <footer>
-      <p>Created by <a href="https://www.freecodecamp.com/arante" target="_blank">Billy Wilson Arante</a> of Mandaluyong City, Philippines</p>
-      <p>Hosted by <a href="#" target="_blank">GitHub Pages</a></p>
+      <p>Created by <a href="https://github.com/arante/" target="_blank">Billy Wilson Arante</a> of Mandaluyong City, Philippines</p>
+      <p>Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
     </footer>
   </div>
 
