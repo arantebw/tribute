@@ -1,8 +1,6 @@
-# Build A Tribute Page
+# Project Build A Tribute Page
 
-## About
-
-A tribute page for Dennis M. Ritchie. A basic front end development project of [freeCodeCamp](https://www.freecodecamp.com).
+This is my take of the freeCodeCamp's "Responsive Web Design Certification" - Build a Tribute Page.
 
 ---
-Created by [Billy Wilson Arante](https://arante.github.io/) of Mandaluyong City, Philippines
+Created by [Billy Arante](#) from [Philippines](#)
